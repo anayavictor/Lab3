@@ -1,0 +1,27 @@
+let friends = ['Seth', 'Bianca', 'Jimmy', 'Karla', 'Chris'] {
+    for(var i=99; i>0; i--){
+        document.getElementById("output").innerHTML += i + "Bottles on the wall take one down, pass it around." + "<br>";
+    }
+    var lines of code; 
+var linesNumber = 99;
+
+// This program will count to 99 for us
+
+// Set up a counter variable, and start it on zero (good place to start)
+var counter = 0;
+
+// While loop
+while (counter < 99) {
+
+    // This line increments (or adds 1) to our counter each time the loop goes around.
+    counter--;
+
+    // This line finds the HTML element with an ID of "output" and puts the value of our counter in it, followed by a line break <br />
+    // The += operator takes what's already stored and appends our new value to it
+    document.getElementById('output').innerHTML += counter + "<br />";
+
+}
+if (bottles = beerNum){ 
+    document.getElementById('output')>innerHTML += bottles + beerNum + "of beer on the wall";
+}
+}
